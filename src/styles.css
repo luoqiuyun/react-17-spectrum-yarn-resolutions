@@ -1,0 +1,37 @@
+#img-overlay-container {
+  height: 100%;
+}
+#img-overlay-container:after {
+  background-image: url("https://accelerated.atoms.crystallize.digital/snowball/images/PalmaSpeedJusterteBilder-15/_resized_768.jpg");
+  position: absolute;
+  content: "";
+  width: 768px;
+  height: 500px;
+  top: 0;
+  left: 250px;
+}
+.responsive-image-container {
+  background-color: #f6f6f6;
+  display: inline-block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.img-overlay {
+  position: absolute;
+  content: "";
+  width: 768px;
+  height: 500px;
+  top: 0;
+  left: 250px;
+  background-color: rgb(255, 128, 0, 0.3);
+  z-index: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-txt {
+  color: blue;
+  z-index: 1000;
+}
